@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "DATABASE_URL": "@my-database-url"
+    },
+    "commands": [
+      "npx prisma generate",
+      "next build"
+    ]
+  }
+}
